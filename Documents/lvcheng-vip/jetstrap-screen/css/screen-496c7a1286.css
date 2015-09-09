@@ -1,0 +1,147 @@
+body {
+text-align:center;
+margin-left:auto; 
+margin-right:auto;
+}
+
+div{
+  text-align:center;
+margin-left:auto; 
+margin-right:auto;
+  
+  }
+
+  .dice{
+  height:30px;
+
+  
+  
+  
+}
+.describe{
+  height:100px;
+  width:650px;
+  background-color:#88382D;
+  color:#F5D5BC;
+  font-size: 90px;
+  font-family:Curlz MT;
+  
+  
+  
+}
+.board{
+  
+  background-color:#E9D6C5;
+  height:555px;
+  width:520px;
+
+    text-align:center;
+margin-left:auto; 
+margin-right:auto;
+}
+
+.box{
+  
+    
+  
+  height:65px;
+  width:65px;
+  display:inline-block;
+  border:1px dashed black;
+ /* overflow:hidden;*/
+}
+
+.box:hover{
+  
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+
+
+.monster{
+ background-image:url("none");
+ /*  background-color:black;*/
+
+}
+
+.player{
+  background-image:url("https://files.nyu.edu/yq368/public/pawn.jpg");
+ /* background-color:blue;*/
+
+}
+
+.gameover{
+  width:520px;
+  height:560px;
+  background-color:black;
+  float:center;
+
+
+}
+.gameover p{
+    font-size:100px;
+  color:red;
+  
+}
+#card1{
+ width:100px; 
+ height:100px;
+
+   display:inline-block;
+background-image:url("https://files.nyu.edu/yq368/public/card.png");
+
+/*float:right;*/
+}
+#card2{
+ width:100px; 
+ height:100px;
+
+background-image:url("https://files.nyu.edu/yq368/public/card.png");
+display:inline-block;
+/*float:center;*/
+}
+a:hover{
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+.panel {
+
+    background-size:30% 30%;
+    height:100px;
+	display:none;
+    font-family:garamond,times-new-roman,serif;
+}
+.panel p{
+    text-align:center;
+}
+.slide {
+	margin:0;
+	padding:0;
+  border-top:solid 2px #cc0000;
+}
+.pull-me {
+	display:block;
+    position:relative;
+    right:-25px;
+    width:150px;
+    height:20px;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#cc0000;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    margin-left:auto; 
+margin-right:auto;
+    
+}
+.pull-me p {
+    text-align:center;
+}
